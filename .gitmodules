@@ -1,0 +1,3 @@
+[submodule "Carlor/Alamofire"]
+	path = Carlor/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
