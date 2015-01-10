@@ -16,6 +16,54 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // test
+//        HttpUser.createUser(
+//            email: "lizeng@wustl.edu",
+//            password: "123",
+//            firstname: "Li",
+//            lastname: "Zeng"
+//        )
+//
+        
+//        HttpActivate.resendEmail(userid: userid)
+        
+//        HttpActivate.activateUser(
+//            userid: "lizeng@wustl.edu".md5(),
+//            code: "1b187"
+//        )
+//
+        
+//        HttpClient.registerDevice(
+//            deviceToken: "1ed5f02c7cea88968035c3d63bd35dbcec53bf62b6275dc2fda463a22290e258"
+//        )
+//        
+//        
+        HttpAuth.login(
+            email: "lizeng@wustl.edu",
+            password: "123",
+            apns: "1ed5f02c7cea88968035c3d63bd35dbcec53bf62b6275dc2fda463a22290e258"
+        )
+
+//        HttpActivate.getActivateStatus(userid: userid)
+//
+//        HttpUser.updateUser(
+//            firstname: "Li",
+//            lastname: "Zeng",
+//            gender: "male",
+//            college: "WashU",
+//            major: "CS",
+//            birthday: ";",
+//            password: "123",
+//            phone: "314-808-6721",
+//            signature: "this is a test",
+//            driver: "no",
+//            license: "2231"
+//        )
+//
+//        HttpUser.GetCurrentUser()
+//        HttpUser.GetSpecifiedUser(userid: userid)
+//        
         return true
     }
 

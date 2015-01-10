@@ -9,5 +9,6 @@
 #ifndef Carlor_objc_bridging_file_h
 #define Carlor_objc_bridging_file_h
 
+#import <CommonCrypto/CommonCrypto.h>
 
 #endif

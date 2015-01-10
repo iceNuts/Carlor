@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		432C8CC11A5E7E6A007422D3 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 432C8CBB1A5E7D6A007422D3 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		432C8CCC1A5F0D0E007422D3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C8CCB1A5F0D0E007422D3 /* User.swift */; };
+		432C8CCE1A5F239F007422D3 /* RestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C8CCD1A5F239F007422D3 /* RestConfig.swift */; };
+		432C8CD11A5F81FE007422D3 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C8CD01A5F81FE007422D3 /* MD5.swift */; };
+		432C8CE31A6071BE007422D3 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C8CE21A6071BE007422D3 /* SwiftyJSON.swift */; };
+		432C8CE61A60CBC1007422D3 /* Activate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C8CE51A60CBC1007422D3 /* Activate.swift */; };
+		432C8CE91A60EB2A007422D3 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C8CE81A60EB2A007422D3 /* Auth.swift */; };
+		432C8CEB1A6109C6007422D3 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C8CEA1A6109C6007422D3 /* Client.swift */; };
 		4362222D1A5E3EE50069B9E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4362222C1A5E3EE50069B9E5 /* AppDelegate.swift */; };
 		4362222F1A5E3EE50069B9E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4362222E1A5E3EE50069B9E5 /* ViewController.swift */; };
 		436222321A5E3EE50069B9E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436222301A5E3EE50069B9E5 /* Main.storyboard */; };
@@ -66,7 +73,14 @@
 		21377B7CB9F8C8B0112EED9A /* Pods-Carlor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carlor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Carlor/Pods-Carlor.debug.xcconfig"; sourceTree = "<group>"; };
 		2B544E20BDFB6C4866864772 /* Pods-Carlor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carlor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Carlor/Pods-Carlor.release.xcconfig"; sourceTree = "<group>"; };
 		432C8CB51A5E7D6A007422D3 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
-		432C8CC41A5E7FB6007422D3 /* objc_bridging_file.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objc_bridging_file.h; sourceTree = "<group>"; };
+		432C8CCB1A5F0D0E007422D3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		432C8CCD1A5F239F007422D3 /* RestConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestConfig.swift; sourceTree = "<group>"; };
+		432C8CD01A5F81FE007422D3 /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		432C8CE11A607104007422D3 /* objc_bridging_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objc_bridging_file.h; sourceTree = SOURCE_ROOT; };
+		432C8CE21A6071BE007422D3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		432C8CE51A60CBC1007422D3 /* Activate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activate.swift; sourceTree = "<group>"; };
+		432C8CE81A60EB2A007422D3 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		432C8CEA1A6109C6007422D3 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		436222271A5E3EE50069B9E5 /* Carlor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carlor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4362222B1A5E3EE50069B9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4362222C1A5E3EE50069B9E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +131,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		432C8CC91A5F0734007422D3 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				432C8CCD1A5F239F007422D3 /* RestConfig.swift */,
+				432C8CCB1A5F0D0E007422D3 /* User.swift */,
+				432C8CE51A60CBC1007422D3 /* Activate.swift */,
+				432C8CE81A60EB2A007422D3 /* Auth.swift */,
+				432C8CEA1A6109C6007422D3 /* Client.swift */,
+			);
+			name = http;
+			sourceTree = "<group>";
+		};
+		432C8CCF1A5F817E007422D3 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				432C8CD01A5F81FE007422D3 /* MD5.swift */,
+				432C8CE21A6071BE007422D3 /* SwiftyJSON.swift */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
 		4362221E1A5E3EE50069B9E5 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +176,8 @@
 		436222291A5E3EE50069B9E5 /* Carlor */ = {
 			isa = PBXGroup;
 			children = (
+				432C8CCF1A5F817E007422D3 /* utils */,
+				432C8CC91A5F0734007422D3 /* http */,
 				4362222C1A5E3EE50069B9E5 /* AppDelegate.swift */,
 				4362222E1A5E3EE50069B9E5 /* ViewController.swift */,
 				436222301A5E3EE50069B9E5 /* Main.storyboard */,
@@ -154,8 +191,8 @@
 		4362222A1A5E3EE50069B9E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				432C8CE11A607104007422D3 /* objc_bridging_file.h */,
 				4362222B1A5E3EE50069B9E5 /* Info.plist */,
-				432C8CC41A5E7FB6007422D3 /* objc_bridging_file.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -345,8 +382,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				432C8CCC1A5F0D0E007422D3 /* User.swift in Sources */,
 				4362222F1A5E3EE50069B9E5 /* ViewController.swift in Sources */,
 				4362222D1A5E3EE50069B9E5 /* AppDelegate.swift in Sources */,
+				432C8CE61A60CBC1007422D3 /* Activate.swift in Sources */,
+				432C8CE31A6071BE007422D3 /* SwiftyJSON.swift in Sources */,
+				432C8CD11A5F81FE007422D3 /* MD5.swift in Sources */,
+				432C8CCE1A5F239F007422D3 /* RestConfig.swift in Sources */,
+				432C8CE91A60EB2A007422D3 /* Auth.swift in Sources */,
+				432C8CEB1A6109C6007422D3 /* Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
