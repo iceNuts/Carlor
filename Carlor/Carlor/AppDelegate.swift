@@ -24,26 +24,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            firstname: "Li",
 //            lastname: "Zeng"
 //        )
-//
+
         
 //        HttpActivate.resendEmail(userid: userid)
         
 //        HttpActivate.activateUser(
 //            userid: "lizeng@wustl.edu".md5(),
-//            code: "1b187"
+//            code: "29baf"
 //        )
-//
+
         
 //        HttpClient.registerDevice(
 //            deviceToken: "1ed5f02c7cea88968035c3d63bd35dbcec53bf62b6275dc2fda463a22290e258"
 //        )
 //        
-//        
-        HttpAuth.login(
-            email: "lizeng@wustl.edu",
-            password: "123",
-            apns: "1ed5f02c7cea88968035c3d63bd35dbcec53bf62b6275dc2fda463a22290e258"
-        )
+//
+//        HttpAuth.login(
+//            email: "lizeng@wustl.edu",
+//            password: "123",
+//            apns: "1ed5f02c7cea88968035c3d63bd35dbcec53bf62b6275dc2fda463a22290e258"
+//        )
 
 //        HttpActivate.getActivateStatus(userid: userid)
 //
@@ -61,9 +61,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            license: "2231"
 //        )
 //
-//        HttpUser.GetCurrentUser()
-//        HttpUser.GetSpecifiedUser(userid: userid)
-//        
+        HttpUser.GetCurrentUser()
+        HttpUser.GetSpecifiedUser(userid: "lizeng@wustl.edu".md5())
+//
         return true
     }
 

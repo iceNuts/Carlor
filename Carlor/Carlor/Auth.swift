@@ -64,7 +64,7 @@ enum RestAuth: URLRequestConvertible {
 
 struct HttpAuth {
     
-    // create a new user
+    // login
     internal static func login(#email: String, password: String, apns: String) -> Void {
         RestConfig.storeUserid(email.md5())
         Alamofire.request(RestAuth.Login([
@@ -90,7 +90,7 @@ struct HttpAuth {
         // return void
     }
     
-    // resend activate email
+    // logout
     internal static func logout(#apns: String) -> Void {
         Alamofire.request(RestAuth.Logout([
             "apns"    : apns
