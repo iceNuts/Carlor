@@ -86,6 +86,7 @@ struct HttpUser {
                 let json = JSON(data!)
                 // proceed to create user
                 if err == nil {
+                    println(json)
                     RestConfig.storeUserid(json["userid"].stringValue)
                 }
                 // handle exception
@@ -142,7 +143,7 @@ struct HttpUser {
     }
     
     // get current user
-    internal static func GetCurrentUser() -> Void {
+    internal static func getCurrentUser() -> Void {
         Alamofire.request(RestUser.GetCurrentUser())
             .validate()
             .validate(contentType: ["application/json"])
@@ -162,7 +163,7 @@ struct HttpUser {
     }
 
     // get activate status
-    internal static func GetSpecifiedUser(#userid: String) -> Void {
+    internal static func getSpecifiedUser(#userid: String) -> Void {
         Alamofire.request(RestUser.GetSpecifiedUser(userid))
             .validate()
             .validate(contentType: ["application/json"])

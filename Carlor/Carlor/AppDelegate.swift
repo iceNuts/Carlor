@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
 //        HttpActivate.activateUser(
 //            userid: "lizeng@wustl.edu".md5(),
-//            code: "29baf"
+//            code: "f1317"
 //        )
 
         
@@ -44,8 +44,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            password: "123",
 //            apns: "1ed5f02c7cea88968035c3d63bd35dbcec53bf62b6275dc2fda463a22290e258"
 //        )
-
-//        HttpActivate.getActivateStatus(userid: userid)
+//
+        RestConfig.storeUserid("lizeng@wustl.edu".md5())
+        RestConfig.storeAuthToken("84d8592c2b897755612ff516ba6bcf20")
 //
 //        HttpUser.updateUser(
 //            firstname: "Li",
@@ -61,9 +62,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            license: "2231"
 //        )
 //
-        HttpUser.GetCurrentUser()
-        HttpUser.GetSpecifiedUser(userid: "lizeng@wustl.edu".md5())
-//
+//        HttpUser.GetCurrentUser()
+//        HttpUser.GetSpecifiedUser(userid: "lizeng@wustl.edu".md5())
+
         return true
     }
 

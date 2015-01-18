@@ -15,12 +15,18 @@
 		432C8CE61A60CBC1007422D3 /* Activate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C8CE51A60CBC1007422D3 /* Activate.swift */; };
 		432C8CE91A60EB2A007422D3 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C8CE81A60EB2A007422D3 /* Auth.swift */; };
 		432C8CEB1A6109C6007422D3 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C8CEA1A6109C6007422D3 /* Client.swift */; };
+		432C8CED1A624223007422D3 /* Chatgroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C8CEC1A624223007422D3 /* Chatgroup.swift */; };
 		4362222D1A5E3EE50069B9E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4362222C1A5E3EE50069B9E5 /* AppDelegate.swift */; };
 		4362222F1A5E3EE50069B9E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4362222E1A5E3EE50069B9E5 /* ViewController.swift */; };
 		436222321A5E3EE50069B9E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436222301A5E3EE50069B9E5 /* Main.storyboard */; };
 		436222341A5E3EE50069B9E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436222331A5E3EE50069B9E5 /* Images.xcassets */; };
 		436222371A5E3EE50069B9E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436222351A5E3EE50069B9E5 /* LaunchScreen.xib */; };
 		436222431A5E3EE50069B9E5 /* CarlorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436222421A5E3EE50069B9E5 /* CarlorTests.swift */; };
+		43A1F2031A6AFF3D00156729 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A1F2021A6AFF3D00156729 /* Comment.swift */; };
+		43A1F2061A6B096800156729 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A1F2051A6B096800156729 /* Event.swift */; };
+		43A1F2081A6B0FBA00156729 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A1F2071A6B0FBA00156729 /* Friend.swift */; };
+		43A1F20A1A6B123300156729 /* Inbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A1F2091A6B123300156729 /* Inbox.swift */; };
+		43A1F20D1A6B518E00156729 /* TaskQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A1F20C1A6B518E00156729 /* TaskQueue.swift */; };
 		7F15F9201B29F046465AE7A9 /* libPods-Carlor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C07F606D849F3617ABDA5A27 /* libPods-Carlor.a */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +87,7 @@
 		432C8CE51A60CBC1007422D3 /* Activate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activate.swift; sourceTree = "<group>"; };
 		432C8CE81A60EB2A007422D3 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		432C8CEA1A6109C6007422D3 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		432C8CEC1A624223007422D3 /* Chatgroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chatgroup.swift; sourceTree = "<group>"; };
 		436222271A5E3EE50069B9E5 /* Carlor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carlor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4362222B1A5E3EE50069B9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4362222C1A5E3EE50069B9E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +98,11 @@
 		4362223C1A5E3EE50069B9E5 /* CarlorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarlorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436222411A5E3EE50069B9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436222421A5E3EE50069B9E5 /* CarlorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarlorTests.swift; sourceTree = "<group>"; };
+		43A1F2021A6AFF3D00156729 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		43A1F2051A6B096800156729 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		43A1F2071A6B0FBA00156729 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		43A1F2091A6B123300156729 /* Inbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inbox.swift; sourceTree = "<group>"; };
+		43A1F20C1A6B518E00156729 /* TaskQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskQueue.swift; sourceTree = "<group>"; };
 		C07F606D849F3617ABDA5A27 /* libPods-Carlor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Carlor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -139,6 +151,11 @@
 				432C8CE51A60CBC1007422D3 /* Activate.swift */,
 				432C8CE81A60EB2A007422D3 /* Auth.swift */,
 				432C8CEA1A6109C6007422D3 /* Client.swift */,
+				432C8CEC1A624223007422D3 /* Chatgroup.swift */,
+				43A1F2021A6AFF3D00156729 /* Comment.swift */,
+				43A1F2051A6B096800156729 /* Event.swift */,
+				43A1F2071A6B0FBA00156729 /* Friend.swift */,
+				43A1F2091A6B123300156729 /* Inbox.swift */,
 			);
 			name = http;
 			sourceTree = "<group>";
@@ -176,6 +193,7 @@
 		436222291A5E3EE50069B9E5 /* Carlor */ = {
 			isa = PBXGroup;
 			children = (
+				43A1F20B1A6B157B00156729 /* artery */,
 				432C8CCF1A5F817E007422D3 /* utils */,
 				432C8CC91A5F0734007422D3 /* http */,
 				4362222C1A5E3EE50069B9E5 /* AppDelegate.swift */,
@@ -212,6 +230,14 @@
 				436222411A5E3EE50069B9E5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43A1F20B1A6B157B00156729 /* artery */ = {
+			isa = PBXGroup;
+			children = (
+				43A1F20C1A6B518E00156729 /* TaskQueue.swift */,
+			);
+			name = artery;
 			sourceTree = "<group>";
 		};
 		5E0DE1CE72B39CDB23D9B01C /* Frameworks */ = {
@@ -385,11 +411,17 @@
 				432C8CCC1A5F0D0E007422D3 /* User.swift in Sources */,
 				4362222F1A5E3EE50069B9E5 /* ViewController.swift in Sources */,
 				4362222D1A5E3EE50069B9E5 /* AppDelegate.swift in Sources */,
+				432C8CED1A624223007422D3 /* Chatgroup.swift in Sources */,
+				43A1F2061A6B096800156729 /* Event.swift in Sources */,
 				432C8CE61A60CBC1007422D3 /* Activate.swift in Sources */,
 				432C8CE31A6071BE007422D3 /* SwiftyJSON.swift in Sources */,
+				43A1F20D1A6B518E00156729 /* TaskQueue.swift in Sources */,
 				432C8CD11A5F81FE007422D3 /* MD5.swift in Sources */,
 				432C8CCE1A5F239F007422D3 /* RestConfig.swift in Sources */,
 				432C8CE91A60EB2A007422D3 /* Auth.swift in Sources */,
+				43A1F20A1A6B123300156729 /* Inbox.swift in Sources */,
+				43A1F2031A6AFF3D00156729 /* Comment.swift in Sources */,
+				43A1F2081A6B0FBA00156729 /* Friend.swift in Sources */,
 				432C8CEB1A6109C6007422D3 /* Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
